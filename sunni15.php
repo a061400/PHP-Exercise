@@ -5,10 +5,13 @@
       $point = rand(1,6);
       switch ($point){
           case 1: $p1++; break;
-          case 2: $p1++; break;
-          case 3: $p1++; break;
-          case 4: $p1++; break;
-          case 5: $p1++; break;
-          case 6: $p1++; break;
+          case 2: $p2++; break;
+          case 3: $p3++; break;
+          case 4: $p4++; break;
+          case 5: $p5++; break;
+          case 6: $p6++; break;
+
+
       }
+      echo $p1,$p2,$p3,$p4,$p5,"$p6<hr>";
   }

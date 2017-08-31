@@ -23,7 +23,7 @@ $d['name']=51;
 echo gettype($d).':'.count($d);//4
 
 
-echo '<hr />';
+echo '<hr>';
 $ary = array(1,2);
 $ary[] = '123';
 $ary[7] = 12.3;
@@ -33,7 +33,7 @@ var_dump($ary);
 
 
 
-echo '<hr />';
-foreach ($ary as $value){
+echo '<hr>';
+foreach ($ary as $key=>$value){
     echo "{$key} ---> {$value}<br>";
 }

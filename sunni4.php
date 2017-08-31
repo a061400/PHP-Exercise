@@ -10,11 +10,19 @@ if(isset($_GET['a'])) {
 
 <form>
 
+
+
 <input name="a" value="<?php echo $a; ?>" />
-    +
+    <select>
+        <option>+</option>
+        <option>-</option>
+        <option>x</option>
+        <option>/</option>
+    </select>
 <input name="b" value="<?php echo $b; ?>" />
 
 <input type="submit"  value="=" />
 <?php echo $result ?>
+
 
 </form>

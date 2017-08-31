@@ -17,7 +17,7 @@ for ($i=0; $i<52; $i++){
     }else{
         $poker[$i] = $temp;
     }
-    echo "{$temp}<br>";
+    echo "{$i}-->{$temp}<br>";
 }
 // 2. 發牌 =>4
 // 3. 攤牌 (理牌)
